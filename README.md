@@ -124,14 +124,12 @@ ERROR | Reserva #7 (procesar) -> ReservaInvalidaError: No se pudo procesar la re
 
 | Nombre | Aporte |
 |---|---|
-| Keller González Ortiz | _Completar_ |
-| _Nombre del integrante_ | _Completar_ |
-| _Nombre del integrante_ | _Completar_ |
+| Keller González Ortiz | _Completo_ |
 
 ## Información académica
 
 - **Universidad:** Universidad Nacional Abierta y a Distancia – UNAD
 - **Programa:** Ingeniería de Sistemas
-- **Curso:** _Nombre y código del curso_
-- **Tutor:** _Nombre del tutor_
+- **Curso:** Programacion 213023
+- **Tutor:** Juan Pablo Zambrano
 - **Fecha:** Noviembre de 2026
