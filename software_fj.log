@@ -1,0 +1,52 @@
+2026-11-20 03:05:23,882 | INFO     | Registrar cliente -> OK
+2026-11-20 03:05:23,882 | DEBUG    | Operación finalizada: Registrar cliente
+2026-11-20 03:05:23,882 | ERROR    | Registrar cliente -> ClienteInvalidoError: Correo electrónico inválido: 'luis-correo.com'.
+2026-11-20 03:05:23,882 | DEBUG    | Operación finalizada: Registrar cliente
+2026-11-20 03:05:23,882 | ERROR    | Registrar cliente -> ParametroFaltanteError: Falta el parámetro obligatorio 'documento'.
+2026-11-20 03:05:23,882 | DEBUG    | Operación finalizada: Registrar cliente
+2026-11-20 03:05:23,882 | INFO     | Registrar cliente -> OK
+2026-11-20 03:05:23,883 | DEBUG    | Operación finalizada: Registrar cliente
+2026-11-20 03:05:23,883 | INFO     | Crear servicio ReservaSala -> OK
+2026-11-20 03:05:23,883 | DEBUG    | Operación finalizada: Crear servicio ReservaSala
+2026-11-20 03:05:23,883 | ERROR    | Crear servicio ReservaSala -> ServicioInvalidoError: Tarifa por hora inválida: -100.
+2026-11-20 03:05:23,883 | DEBUG    | Operación finalizada: Crear servicio ReservaSala
+2026-11-20 03:05:23,883 | INFO     | Crear servicio AlquilerEquipo -> OK
+2026-11-20 03:05:23,883 | DEBUG    | Operación finalizada: Crear servicio AlquilerEquipo
+2026-11-20 03:05:23,883 | ERROR    | Crear servicio AsesoriaEspecializada -> ServicioInvalidoError: Nivel 'maestro' no válido. Opciones: junior, senior, experto.
+2026-11-20 03:05:23,883 | DEBUG    | Operación finalizada: Crear servicio AsesoriaEspecializada
+2026-11-20 03:05:23,883 | INFO     | Crear servicio AsesoriaEspecializada -> OK
+2026-11-20 03:05:23,883 | DEBUG    | Operación finalizada: Crear servicio AsesoriaEspecializada
+2026-11-20 03:05:23,883 | INFO     | Crear reserva -> OK
+2026-11-20 03:05:23,884 | DEBUG    | Operación finalizada: Crear reserva
+2026-11-20 03:05:23,884 | INFO     | Reserva #6 confirmada.
+2026-11-20 03:05:23,884 | INFO     | Reserva #6 (confirmar) -> OK
+2026-11-20 03:05:23,884 | DEBUG    | Operación finalizada: Reserva #6 (confirmar)
+2026-11-20 03:05:23,884 | INFO     | Reserva #6 procesada. Costo final: $160,650.00
+2026-11-20 03:05:23,884 | DEBUG    | Fin de procesamiento de reserva #6 (estado: Procesada).
+2026-11-20 03:05:23,884 | INFO     | Reserva #6 (procesar) -> OK
+2026-11-20 03:05:23,884 | DEBUG    | Operación finalizada: Reserva #6 (procesar)
+2026-11-20 03:05:23,884 | ERROR    | Reserva #6 (cancelar) -> OperacionNoPermitidaError: No se puede cancelar una reserva en estado Procesada.
+2026-11-20 03:05:23,884 | DEBUG    | Operación finalizada: Reserva #6 (cancelar)
+2026-11-20 03:05:23,884 | ERROR    | Crear reserva -> ReservaInvalidaError: Parámetros de reserva inválidos. | causa: ServicioInvalidoError: Las horas deben estar entre 0 y 24.
+2026-11-20 03:05:23,884 | DEBUG    | Operación finalizada: Crear reserva
+2026-11-20 03:05:23,884 | ERROR    | Crear reserva -> ReservaInvalidaError: Parámetros de reserva inválidos. | causa: ServicioInvalidoError: Cantidad (5) no válida; stock disponible: 3.
+2026-11-20 03:05:23,885 | DEBUG    | Operación finalizada: Crear reserva
+2026-11-20 03:05:23,885 | INFO     | Crear reserva -> OK
+2026-11-20 03:05:23,885 | DEBUG    | Operación finalizada: Crear reserva
+2026-11-20 03:05:23,885 | ERROR    | Reserva #7 (confirmar) -> ServicioNoDisponibleError: 'Portátil Pro' no está disponible.
+2026-11-20 03:05:23,885 | DEBUG    | Operación finalizada: Reserva #7 (confirmar)
+2026-11-20 03:05:23,885 | INFO     | Reserva #7 confirmada.
+2026-11-20 03:05:23,885 | INFO     | Reserva #7 (confirmar) -> OK
+2026-11-20 03:05:23,885 | DEBUG    | Operación finalizada: Reserva #7 (confirmar)
+2026-11-20 03:05:23,885 | DEBUG    | Fin de procesamiento de reserva #7 (estado: Fallida).
+2026-11-20 03:05:23,885 | ERROR    | Reserva #7 (procesar) -> ReservaInvalidaError: No se pudo procesar la reserva #7. | causa: CalculoInconsistenteError: Costo total incoherente: 0.0.
+2026-11-20 03:05:23,885 | DEBUG    | Operación finalizada: Reserva #7 (procesar)
+2026-11-20 03:05:23,885 | ERROR    | Crear reserva -> ParametroFaltanteError: Reserva requiere cliente, servicio y horas.
+2026-11-20 03:05:23,885 | DEBUG    | Operación finalizada: Crear reserva
+2026-11-20 03:05:23,885 | INFO     | Crear reserva -> OK
+2026-11-20 03:05:23,886 | DEBUG    | Operación finalizada: Crear reserva
+2026-11-20 03:05:23,886 | ERROR    | Reserva #8 (procesar) -> OperacionNoPermitidaError: Solo se procesan reservas confirmadas (estado actual: Pendiente).
+2026-11-20 03:05:23,886 | DEBUG    | Operación finalizada: Reserva #8 (procesar)
+2026-11-20 03:05:23,886 | INFO     | Reserva #8 cancelada.
+2026-11-20 03:05:23,886 | INFO     | Reserva #8 (cancelar) -> OK
+2026-11-20 03:05:23,886 | DEBUG    | Operación finalizada: Reserva #8 (cancelar)
